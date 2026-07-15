@@ -19,7 +19,7 @@ async function main() {
     render: {
       near: 0.01,
       far: 200,
-      camera: { position: [0, 1.6, 0], lookAt: [0, 1.2, -4] },
+      camera: { position: [0, 1.6, 0], lookAt: [0, 1.5, -4] },
     },
   });
 

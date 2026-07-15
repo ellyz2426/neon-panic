@@ -153,16 +153,16 @@ export class StationManager {
 
       // Create panel entity for UI
       const panelGroup = new Group();
-      panelGroup.position.set(0, 1.4, -0.15);
+      panelGroup.position.set(0, 1.55, -0.35);
       panelGroup.rotation.x = -0.2;
-      panelGroup.scale.set(0.7, 0.7, 0.7);
+      panelGroup.scale.set(0.4, 0.4, 0.4);
       group.add(panelGroup);
 
       const panelEntity = this.world.createTransformEntity(panelGroup);
       panelEntity.addComponent(PanelUI, {
         config: `./ui/${def.type}.json`,
-        maxWidth: 0.5,
-        maxHeight: 0.35,
+        maxWidth: 0.4,
+        maxHeight: 0.25,
       });
 
       const station: Station = {
