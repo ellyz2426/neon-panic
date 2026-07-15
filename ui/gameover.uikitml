@@ -1,0 +1,62 @@
+<panel>
+  <style>
+    .root {
+      background-color: rgba(0,4,20,0.92);
+      border-radius: 10;
+      padding: 12;
+      flex-direction: column;
+      gap: 6;
+      align-items: center;
+      border-width: 2;
+      border-color: #ff4444;
+    }
+    .title {
+      font-size: 20;
+      color: #ff4444;
+      font-weight: bold;
+    }
+    .stat {
+      font-size: 12;
+      color: #cccccc;
+    }
+    .score {
+      font-size: 16;
+      color: #44aaff;
+      font-weight: bold;
+    }
+    .btn-row {
+      flex-direction: row;
+      gap: 10;
+      align-items: center;
+    }
+    .btn {
+      font-size: 12;
+      color: #ffffff;
+      background-color: #1a2a55;
+      padding: 6;
+      border-radius: 6;
+      width: 120;
+      text-align: center;
+      cursor: pointer;
+      border-width: 1;
+      border-color: #3366aa;
+    }
+    .btn-retry {
+      border-color: #44ff88;
+    }
+    .btn-menu {
+      border-color: #ffaa00;
+    }
+  </style>
+  <container class="root">
+    <text class="title">STATION LOST</text>
+    <text class="score" id="final-score">Score: 0</text>
+    <text class="stat" id="final-time">Time: 0:00</text>
+    <text class="stat" id="final-crises">Crises Resolved: 0</text>
+    <text class="stat" id="final-streak">Best Streak: 0</text>
+    <container class="btn-row">
+      <text class="btn btn-retry" id="btn-retry">Retry</text>
+      <text class="btn btn-menu" id="btn-menu">Menu</text>
+    </container>
+  </container>
+</panel>

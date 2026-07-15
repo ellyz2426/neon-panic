@@ -1,0 +1,430 @@
+{
+  "element": {
+    "sourceTag": "panel",
+    "type": "custom",
+    "children": [
+      {
+        "sourceTag": "container",
+        "type": "custom",
+        "children": [
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "NEON PANIC"
+            ],
+            "properties": {
+              "class": "title"
+            },
+            "dataUid": "uid-3"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "Space Station Crisis Management"
+            ],
+            "properties": {
+              "class": "subtitle"
+            },
+            "dataUid": "uid-4"
+          },
+          {
+            "sourceTag": "container",
+            "type": "custom",
+            "children": [
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [
+                  "Classic - Survive"
+                ],
+                "properties": {
+                  "class": "btn btn-classic",
+                  "id": "btn-classic"
+                },
+                "dataUid": "uid-6"
+              },
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [
+                  "Speed Run - 20 Crises"
+                ],
+                "properties": {
+                  "class": "btn btn-speed",
+                  "id": "btn-speed"
+                },
+                "dataUid": "uid-7"
+              },
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [
+                  "Campaign - Waves"
+                ],
+                "properties": {
+                  "class": "btn btn-campaign",
+                  "id": "btn-campaign"
+                },
+                "dataUid": "uid-8"
+              },
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [
+                  "Zen - Relaxed"
+                ],
+                "properties": {
+                  "class": "btn btn-zen",
+                  "id": "btn-zen"
+                },
+                "dataUid": "uid-9"
+              }
+            ],
+            "properties": {
+              "class": "mode-row"
+            },
+            "dataUid": "uid-5"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "Look at a station + press buttons to resolve crises"
+            ],
+            "properties": {
+              "class": "instructions"
+            },
+            "dataUid": "uid-10"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "Sequence: 1-2-3-4 keys / A-B-X-Y buttons"
+            ],
+            "properties": {
+              "class": "instructions"
+            },
+            "dataUid": "uid-11"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "Pump: Space/Trigger rapidly"
+            ],
+            "properties": {
+              "class": "instructions"
+            },
+            "dataUid": "uid-12"
+          }
+        ],
+        "properties": {
+          "class": "root"
+        },
+        "dataUid": "uid-2"
+      }
+    ],
+    "properties": {},
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "root": {
+      "content": {
+        "backgroundColor": "rgba(0,4,20,0.92)",
+        "borderRadius": 10,
+        "padding": "12",
+        "flexDirection": "column",
+        "gap": "8",
+        "alignItems": "center",
+        "borderWidth": "2",
+        "borderColor": "#4488ff"
+      }
+    },
+    "title": {
+      "content": {
+        "fontSize": "22",
+        "color": "#44aaff",
+        "fontWeight": "bold"
+      }
+    },
+    "subtitle": {
+      "content": {
+        "fontSize": "10",
+        "color": "#8899bb"
+      }
+    },
+    "mode-row": {
+      "content": {
+        "flexDirection": "column",
+        "gap": "6",
+        "alignItems": "center",
+        "width": "100%"
+      }
+    },
+    "btn": {
+      "content": {
+        "fontSize": "12",
+        "color": "#ffffff",
+        "backgroundColor": "#1a2a55",
+        "padding": "6",
+        "borderRadius": 6,
+        "width": "200",
+        "textAlign": "center",
+        "cursor": "pointer",
+        "borderWidth": "1",
+        "borderColor": "#3366aa"
+      }
+    },
+    "btn-classic": {
+      "content": {
+        "borderColor": "#44aaff"
+      }
+    },
+    "btn-speed": {
+      "content": {
+        "borderColor": "#ff4444"
+      }
+    },
+    "btn-campaign": {
+      "content": {
+        "borderColor": "#ffaa00"
+      }
+    },
+    "btn-zen": {
+      "content": {
+        "borderColor": "#44ff88"
+      }
+    },
+    "instructions": {
+      "content": {
+        "fontSize": "8",
+        "color": "#667799"
+      }
+    }
+  },
+  "ranges": {
+    "uid-1": {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 69,
+        "column": 8
+      }
+    },
+    "root": {
+      "start": {
+        "line": 2,
+        "column": 4
+      },
+      "end": {
+        "line": 2,
+        "column": 9
+      }
+    },
+    "title": {
+      "start": {
+        "line": 12,
+        "column": 4
+      },
+      "end": {
+        "line": 12,
+        "column": 10
+      }
+    },
+    "subtitle": {
+      "start": {
+        "line": 17,
+        "column": 4
+      },
+      "end": {
+        "line": 17,
+        "column": 13
+      }
+    },
+    "mode-row": {
+      "start": {
+        "line": 21,
+        "column": 4
+      },
+      "end": {
+        "line": 21,
+        "column": 13
+      }
+    },
+    "btn": {
+      "start": {
+        "line": 27,
+        "column": 4
+      },
+      "end": {
+        "line": 27,
+        "column": 8
+      }
+    },
+    "btn-classic": {
+      "start": {
+        "line": 39,
+        "column": 4
+      },
+      "end": {
+        "line": 39,
+        "column": 16
+      }
+    },
+    "btn-speed": {
+      "start": {
+        "line": 42,
+        "column": 4
+      },
+      "end": {
+        "line": 42,
+        "column": 14
+      }
+    },
+    "btn-campaign": {
+      "start": {
+        "line": 45,
+        "column": 4
+      },
+      "end": {
+        "line": 45,
+        "column": 17
+      }
+    },
+    "btn-zen": {
+      "start": {
+        "line": 48,
+        "column": 4
+      },
+      "end": {
+        "line": 48,
+        "column": 12
+      }
+    },
+    "instructions": {
+      "start": {
+        "line": 51,
+        "column": 4
+      },
+      "end": {
+        "line": 51,
+        "column": 17
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 56,
+        "column": 2
+      },
+      "end": {
+        "line": 68,
+        "column": 14
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 57,
+        "column": 4
+      },
+      "end": {
+        "line": 57,
+        "column": 41
+      }
+    },
+    "uid-4": {
+      "start": {
+        "line": 58,
+        "column": 4
+      },
+      "end": {
+        "line": 58,
+        "column": 65
+      }
+    },
+    "uid-5": {
+      "start": {
+        "line": 59,
+        "column": 4
+      },
+      "end": {
+        "line": 64,
+        "column": 16
+      }
+    },
+    "uid-6": {
+      "start": {
+        "line": 60,
+        "column": 6
+      },
+      "end": {
+        "line": 60,
+        "column": 77
+      }
+    },
+    "uid-7": {
+      "start": {
+        "line": 61,
+        "column": 6
+      },
+      "end": {
+        "line": 61,
+        "column": 77
+      }
+    },
+    "uid-8": {
+      "start": {
+        "line": 62,
+        "column": 6
+      },
+      "end": {
+        "line": 62,
+        "column": 78
+      }
+    },
+    "uid-9": {
+      "start": {
+        "line": 63,
+        "column": 6
+      },
+      "end": {
+        "line": 63,
+        "column": 65
+      }
+    },
+    "uid-10": {
+      "start": {
+        "line": 65,
+        "column": 4
+      },
+      "end": {
+        "line": 65,
+        "column": 89
+      }
+    },
+    "uid-11": {
+      "start": {
+        "line": 66,
+        "column": 4
+      },
+      "end": {
+        "line": 66,
+        "column": 78
+      }
+    },
+    "uid-12": {
+      "start": {
+        "line": 67,
+        "column": 4
+      },
+      "end": {
+        "line": 67,
+        "column": 65
+      }
+    }
+  }
+}

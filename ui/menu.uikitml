@@ -1,0 +1,70 @@
+<panel>
+  <style>
+    .root {
+      background-color: rgba(0,4,20,0.92);
+      border-radius: 10;
+      padding: 12;
+      flex-direction: column;
+      gap: 8;
+      align-items: center;
+      border-width: 2;
+      border-color: #4488ff;
+    }
+    .title {
+      font-size: 22;
+      color: #44aaff;
+      font-weight: bold;
+    }
+    .subtitle {
+      font-size: 10;
+      color: #8899bb;
+    }
+    .mode-row {
+      flex-direction: column;
+      gap: 6;
+      align-items: center;
+      width: 100%;
+    }
+    .btn {
+      font-size: 12;
+      color: #ffffff;
+      background-color: #1a2a55;
+      padding: 6;
+      border-radius: 6;
+      width: 200;
+      text-align: center;
+      cursor: pointer;
+      border-width: 1;
+      border-color: #3366aa;
+    }
+    .btn-classic {
+      border-color: #44aaff;
+    }
+    .btn-speed {
+      border-color: #ff4444;
+    }
+    .btn-campaign {
+      border-color: #ffaa00;
+    }
+    .btn-zen {
+      border-color: #44ff88;
+    }
+    .instructions {
+      font-size: 8;
+      color: #667799;
+    }
+  </style>
+  <container class="root">
+    <text class="title">NEON PANIC</text>
+    <text class="subtitle">Space Station Crisis Management</text>
+    <container class="mode-row">
+      <text class="btn btn-classic" id="btn-classic">Classic - Survive</text>
+      <text class="btn btn-speed" id="btn-speed">Speed Run - 20 Crises</text>
+      <text class="btn btn-campaign" id="btn-campaign">Campaign - Waves</text>
+      <text class="btn btn-zen" id="btn-zen">Zen - Relaxed</text>
+    </container>
+    <text class="instructions">Look at a station + press buttons to resolve crises</text>
+    <text class="instructions">Sequence: 1-2-3-4 keys / A-B-X-Y buttons</text>
+    <text class="instructions">Pump: Space/Trigger rapidly</text>
+  </container>
+</panel>

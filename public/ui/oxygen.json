@@ -1,0 +1,221 @@
+{
+  "element": {
+    "sourceTag": "panel",
+    "type": "custom",
+    "children": [
+      {
+        "sourceTag": "container",
+        "type": "custom",
+        "children": [
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "OXYGEN"
+            ],
+            "properties": {
+              "class": "title"
+            },
+            "dataUid": "uid-3"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "NOMINAL"
+            ],
+            "properties": {
+              "class": "status",
+              "id": "status"
+            },
+            "dataUid": "uid-4"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "OK"
+            ],
+            "properties": {
+              "class": "crisis",
+              "id": "crisis"
+            },
+            "dataUid": "uid-5"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "Systems stable"
+            ],
+            "properties": {
+              "class": "task",
+              "id": "task"
+            },
+            "dataUid": "uid-6"
+          }
+        ],
+        "properties": {
+          "class": "root"
+        },
+        "dataUid": "uid-2"
+      }
+    ],
+    "properties": {},
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "root": {
+      "content": {
+        "backgroundColor": "rgba(0,0,0,0.85)",
+        "borderRadius": 8,
+        "padding": "6",
+        "flexDirection": "column",
+        "gap": "4",
+        "alignItems": "center",
+        "borderWidth": "1",
+        "borderColor": "#33ff66"
+      }
+    },
+    "title": {
+      "content": {
+        "fontSize": "14",
+        "color": "#33ff66",
+        "fontWeight": "bold"
+      }
+    },
+    "status": {
+      "content": {
+        "fontSize": "10",
+        "color": "#ffffff"
+      }
+    },
+    "crisis": {
+      "content": {
+        "fontSize": "9",
+        "color": "#ffffff",
+        "backgroundColor": "#115522",
+        "padding": "2",
+        "borderRadius": 4
+      }
+    },
+    "task": {
+      "content": {
+        "fontSize": "8",
+        "color": "#cccccc"
+      }
+    }
+  },
+  "ranges": {
+    "uid-1": {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 39,
+        "column": 8
+      }
+    },
+    "root": {
+      "start": {
+        "line": 2,
+        "column": 4
+      },
+      "end": {
+        "line": 2,
+        "column": 9
+      }
+    },
+    "title": {
+      "start": {
+        "line": 12,
+        "column": 4
+      },
+      "end": {
+        "line": 12,
+        "column": 10
+      }
+    },
+    "status": {
+      "start": {
+        "line": 17,
+        "column": 4
+      },
+      "end": {
+        "line": 17,
+        "column": 11
+      }
+    },
+    "crisis": {
+      "start": {
+        "line": 21,
+        "column": 4
+      },
+      "end": {
+        "line": 21,
+        "column": 11
+      }
+    },
+    "task": {
+      "start": {
+        "line": 28,
+        "column": 4
+      },
+      "end": {
+        "line": 28,
+        "column": 9
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 33,
+        "column": 2
+      },
+      "end": {
+        "line": 38,
+        "column": 14
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 34,
+        "column": 4
+      },
+      "end": {
+        "line": 34,
+        "column": 37
+      }
+    },
+    "uid-4": {
+      "start": {
+        "line": 35,
+        "column": 4
+      },
+      "end": {
+        "line": 35,
+        "column": 51
+      }
+    },
+    "uid-5": {
+      "start": {
+        "line": 36,
+        "column": 4
+      },
+      "end": {
+        "line": 36,
+        "column": 46
+      }
+    },
+    "uid-6": {
+      "start": {
+        "line": 37,
+        "column": 4
+      },
+      "end": {
+        "line": 37,
+        "column": 54
+      }
+    }
+  }
+}

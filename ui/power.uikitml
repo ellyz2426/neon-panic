@@ -1,0 +1,40 @@
+<panel>
+  <style>
+    .root {
+      background-color: rgba(0,0,0,0.85);
+      border-radius: 8;
+      padding: 6;
+      flex-direction: column;
+      gap: 4;
+      align-items: center;
+      border-width: 1;
+      border-color: #ffaa00;
+    }
+    .title {
+      font-size: 14;
+      color: #ffaa00;
+      font-weight: bold;
+    }
+    .status {
+      font-size: 10;
+      color: #ffffff;
+    }
+    .crisis {
+      font-size: 9;
+      color: #ffffff;
+      background-color: #115522;
+      padding: 2;
+      border-radius: 4;
+    }
+    .task {
+      font-size: 8;
+      color: #cccccc;
+    }
+  </style>
+  <container class="root">
+    <text class="title">POWER</text>
+    <text class="status" id="status">NOMINAL</text>
+    <text class="crisis" id="crisis">OK</text>
+    <text class="task" id="task">Systems stable</text>
+  </container>
+</panel>
